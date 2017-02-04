@@ -67,19 +67,11 @@
     }
     h1{ font-size: 180%;}
     h2{ font-size: 160%;}
+    .ncupics li{
+        width: 50%;
+    }
     .coursetable img{
         width: auto;
         height: auto;
     }
 }
-
-/*
- Small phones to small tablets: 481px - 767px 
-@media only screen and (max-width: 768px){
-}
-
- Small phones from 0 to 480px 
-@media only screen and (max-width: 480px){
-    
-}
-*/
