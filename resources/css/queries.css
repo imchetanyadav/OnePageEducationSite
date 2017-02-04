@@ -1,0 +1,85 @@
+/* Large tablets to 1200px */
+@media only screen and (max-width: 1200px){
+    .hero-text{
+        width: 100%;
+        padding: 0 2px;
+    }
+    
+    .row{
+        padding: 0 2px;
+    }
+
+/* Small tablets to large tablets: 768px - 1023px */
+@media only screen and (max-width: 1023px){
+    body{ font-size: 16px; }
+    section{ padding: 60px 0;}
+    
+    .about-text {
+        width: 80%;
+        margin-left: 10%;
+    }
+    
+    .logo { height: 60px; }
+}
+
+@media only screen and (max-width: 954px){
+    .coursetable img{
+        width: 95%;
+        height: auto; 
+    }
+}
+    
+@media only screen and (max-width: 704px){
+    .main-nav{ display: none; }
+    .mobile-nav{ 
+        display: inline-block;
+        margin-right: 15px;
+    }
+    .main-nav{ 
+        float: left; 
+        margin-top: 10px;
+    }
+    .main-nav li{ display: block;}
+    .main-nav li a:link,
+    .main-nav li a:visited{ 
+        display: block;
+        border: 0;
+        padding: 8px 0;
+    }
+    
+    .sticky .main-nav li a:link,
+    .sticky .main-nav li a:visited{
+        padding: 8px 0;
+        color: #000;
+    }
+    .sticky .main-nav { margin-top: 10px; }
+    .sticky .mobile-nav i{ color: #555; }
+    
+    section{ padding: 30px 0;}
+}
+    
+@media only screen and (max-width: 578px){
+    body{ font-size: 14px; }
+    .logo { height: 40px; }
+    .col{
+        width: 100%;
+        margin: 0 0 4% 0;
+    }
+    h1{ font-size: 180%;}
+    h2{ font-size: 160%;}
+    .coursetable img{
+        width: auto;
+        height: auto;
+    }
+}
+
+/*
+ Small phones to small tablets: 481px - 767px 
+@media only screen and (max-width: 768px){
+}
+
+ Small phones from 0 to 480px 
+@media only screen and (max-width: 480px){
+    
+}
+*/
