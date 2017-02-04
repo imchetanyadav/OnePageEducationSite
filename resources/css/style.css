@@ -501,6 +501,7 @@ footer p{
     text-align: center;
     margin: 15px 0;
     font-size: 90%;
+    font-weight: 300;
 }
 
 footer p:first-child{

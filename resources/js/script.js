@@ -13,11 +13,11 @@ $(document).ready(function () {
     
     /*  Scroll on buttons  */
     $('.js-scroll-to-schools').click(function () {
-        $('html, body').animate({scrollTop: $('.js-schools').offset().top}, 1000);
+        $('html, body').animate({scrollTop: $('.js-schools').offset().top -50}, 1000);
     });
     
     $('.js-scroll-to-aboutus').click(function () {
-        $('html, body').animate({scrollTop: $('.js-aboutus').offset().top}, 1000);
+        $('html, body').animate({scrollTop: $('.js-aboutus').offset().top -50}, 1000);
     });
     
     /* Scroll to section on nav click */
