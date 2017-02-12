@@ -496,12 +496,16 @@ footer{
     color: #ddd;
 }
 
-footer p{
+footer p, footer p a{
     color: #5d5d5d;
     text-align: center;
     margin: 15px 0;
     font-size: 90%;
     font-weight: 300;
+}
+
+footer p a:hover{
+    color: #fff;
 }
 
 footer p:first-child{
